@@ -11,74 +11,257 @@
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello! Looking for a place to stay?",
+        "Hi there! How can I help you find the perfect hotel?",
+        "Welcome! Need help with hotel recommendations?",
+        "Hey! I’m here to help you book your ideal hotel."
       ]
     },
     {
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "See you later, thanks for visiting!",
+        "Have a nice day and safe travels!",
+        "Bye! Hope you find your dream stay."
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help with your hotel search!", "Any time!", "My pleasure, enjoy your stay!"]
     },
     {
-      "tag": "items",
+      "tag": "hotel_options",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "What kind of hotels do you have?",
+        "Can you show me hotel options?",
+        "I want to see some hotels",
+        "Suggest me some places to stay"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We offer hotels ranging from budget stays to 5-star luxury!",
+        "Sure! Do you prefer something near the city or beachside?",
+        "Here are some popular options nearby."
       ]
     },
     {
-      "tag": "payments",
+      "tag": "location_based",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "I want a hotel near the beach",
+        "Show hotels close to the airport",
+        "Find me a place near Taipei 101",
+        "Are there hotels near the subway?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Got it! Let me pull up hotels close to that location.",
+        "Searching for hotels near your destination...",
+        "Here are some hotels in that area!"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "budget",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "I’m looking for a cheap hotel",
+        "Show me budget-friendly places",
+        "I don’t want to spend too much",
+        "Any affordable hotel options?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Here are some great options that won’t break the bank!",
+        "These hotels are highly rated and budget-friendly.",
+        "Perfect! Found several hotels under your budget."
       ]
     },
     {
-      "tag": "funny",
+      "tag": "luxury",
       "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
+        "Show me 5-star hotels",
+        "I want a luxury hotel",
+        "Find a high-end place to stay",
+        "Any premium hotel recommendations?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Here are some of the top-rated luxury hotels in the area.",
+        "Looking for luxury? These hotels offer top-tier service and comfort.",
+        "You’ll love these premium accommodations."
       ]
-    }
+    },
+    {
+      "tag": "amenities",
+      "patterns": [
+        "I want a hotel with a pool",
+        "Do you have hotels with gyms?",
+        "Are there hotels with free breakfast?",
+        "Can I find pet-friendly hotels?"
+      ],
+      "responses": [
+        "Yes! I’ve found hotels with those amenities for you.",
+        "Here’s a list of hotels that match your amenity preferences.",
+        "These hotels offer the features you’re looking for."
+      ]
+    },
+    {
+      "tag": "booking",
+      "patterns": [
+        "Can you help me book a hotel?",
+        "I’m ready to book",
+        "How do I reserve a room?",
+        "I want to make a reservation"
+      ],
+      "responses": [
+        "Sure! Just let me know your dates and preferences.",
+        "Happy to help with booking. When and where would you like to stay?",
+        "Let’s get that reservation started!"
+      ]
+    },
+    {
+      "tag": "checkin_checkout",
+      "patterns": [
+        "What time is check-in?",
+        "When can I check out?",
+        "Tell me the check-in and check-out times",
+        "What are the hotel timings?"
+      ],
+      "responses": [
+        "Most hotels offer check-in at 3 PM and check-out at 11 AM.",
+        "Check-in/check-out times vary by hotel — want me to check for a specific one?",
+        "I can confirm the timings once you select a hotel."
+      ]
+    },
+    {
+      "tag": "cancellation",
+      "patterns": [
+        "Can I cancel my booking?",
+        "What’s the cancellation policy?",
+        "Is there a refund if I cancel?",
+        "How do I cancel a reservation?"
+      ],
+      "responses": [
+        "Most hotels allow free cancellation within 24-48 hours before arrival.",
+        "Let me check the cancellation policy for your selected hotel.",
+        "Sure, I’ll walk you through the cancellation process."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "I need help",
+        "Can I talk to someone?",
+        "I have an issue",
+        "Help me please"
+      ],
+      "responses": [
+        "No problem! I’m here to help — what do you need?",
+        "Let me know how I can assist you with your hotel search or booking.",
+        "Feel free to ask any question, I’ve got your back!"
+      ]
+    },
+    {
+      "tag": "restaurant_nearby",
+      "patterns": [
+        "Are there restaurants near the hotel?",
+        "Any good food places nearby?",
+        "Can I get breakfast at the hotel?",
+        "Is food included?"
+      ],
+      "responses": [
+        "Some hotels include breakfast — want me to filter for those?",
+        "Many hotels are located near great restaurants. I can recommend some!",
+        "Here are hotels with great dining options."
+      ]
+    },
+    {
+      "tag": "transportation",
+      "patterns": [
+        "How do I get to the hotel?",
+        "Is there airport pickup?",
+        "Do they offer shuttle service?",
+        "What’s the nearest subway station?"
+      ],
+      "responses": [
+        "Many hotels offer transportation options — let me check for you.",
+        "Some hotels provide shuttle or airport pickup services.",
+        "Would you prefer hotels near public transport?"
+      ]
+    },
+    {
+      "tag": "reviews",
+      "patterns": [
+        "Show me reviews",
+        "What do people say about this hotel?",
+        "Can I read the ratings?",
+        "Is this hotel good?"
+      ],
+      "responses": [
+        "Here are some recent reviews from guests.",
+        "This hotel has great ratings. Want to see detailed reviews?",
+        "Sure, here’s what people are saying."
+      ]
+    },
+    {
+      "tag": "availability",
+      "patterns": [
+        "Is the hotel available?",
+        "Do they have rooms for next weekend?",
+        "Check room availability",
+        "Can I stay there tomorrow?"
+      ],
+      "responses": [
+        "Let me check the availability for those dates.",
+        "Checking open rooms… hang tight!",
+        "Looks like there’s availability — shall I proceed?"
+      ]
+    },
+    {
+      "tag": "special_requests",
+      "patterns": [
+        "Can I request a late check-out?",
+        "I need a room with a view",
+        "Do they allow early check-in?",
+        "I want a quiet room"
+      ],
+      "responses": [
+        "Special requests can be noted at booking. I’ll add that for you.",
+        "Sure! Let me include that in your preferences.",
+        "No problem — I’ll look for hotels that can accommodate that."
+      ]
+    },
+    {
+      "tag": "recommendation_type",
+      "patterns": [
+        "Can you recommend a romantic hotel?",
+        "I need a family-friendly place",
+        "What about hotels for business trips?",
+        "Any place good for solo travel?"
+      ],
+      "responses": [
+        "Of course! I’ll show you the best hotels based on your travel style.",
+        "Got it — here are some great options for your kind of trip.",
+        "Let me recommend a few based on what you’re looking for."
+      ]
+    },
+    {
+      "tag": "budget",
+      "patterns": [
+        "I’m looking for a cheap hotel",
+        "Show me budget-friendly places",
+        "I don’t want to spend too much",
+        "Any affordable hotel options?",
+        "Can I get something cheap?",
+        "Find me something affordable",
+        "Low cost hotels nearby",
+        "Hotels with lower prices",
+        "I’m on a tight budget",
+        "Do you have discounts or cheap rooms?"
+      ],
+      "responses": [
+        "Here are some great options that won’t break the bank!",
+        "These hotels are highly rated and affordable.",
+        "Perfect! Found several hotels under your budget.",
+        "Here are cheap and comfortable places to stay.",
+        "Let me show you some cost-effective accommodations."
+      ]
+    }    
   ]
 }
